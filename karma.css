@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-padding-top: 4rem; /*****/
+    scroll-behavior: smooth;
+}
+
+#site{
+    min-width: 320px;
+    max-width: 1400px;
+    margin:auto;
+    height: auto;
+}
+
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url("./img/banner-bg.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 40px;
+    top:0;
+}
+
+#back{
+    width: 100%;
+    height:inherit;
+    background-color: transparent; /* a metre en transparent */
+}
+
+header nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(249, 248, 248);
+    position: relative;
+    z-index: 10;
+}
+#pre-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.3rem;
+    height: 70px;}
+
+    #menu{
+        width: 30px;
+        height: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+  }
+  #menu div{
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+  }
+
+  nav ul{
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 100px;
+    display: none;
+  }
+
+  nav ul li{
+    background-color: rgb(230, 230, 230);
+    padding: 20px 0 20px 15px;
+    font-size: .8rem;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+header>div{
+    height: 530px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+header div section{
+    display: flex;
+    flex-direction: column;
+}
+
+header div section h2{
+        font-size: 3rem;
+        background:rgb(28, 27, 27);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+}
+
+header div section p{
+    font-size: 1.2rem;
+    color: rgb(87, 71, 71);
+    
+}
+
+
+#bouton{
+    border-radius: 50%;
+    background:linear-gradient(orange,rgb(255, 51, 0)) ;
+    height: 60px;
+    width: 60px;
+
+} 
+
+#model{
+    height: 250px;
+    width: 280px;
+    display: flex;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+        
+
+    
